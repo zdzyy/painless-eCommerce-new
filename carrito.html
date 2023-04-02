@@ -11,7 +11,16 @@
 </head>
 <body>
     <div class="wrapper">
-        <aside>
+        <header class="header-mobile">
+            <img class="logo" src="./img/icons/newlogo2023.png" alt="painless">
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
+        <aside class="aside-visible">
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x-lg"></i>
+            </button>
             <header>
                 <img class="logo" src="./img/icons/newlogo2023.png" alt="painless">
             </header>
@@ -24,7 +33,7 @@
                     </li>
                     <li>
                         <a class="boton-menu boton-carrito active" href="carrito.html">
-                            <i class="bi bi-cart2"></i>Carrito <span class="numerito">0</span>
+                            <i class="bi bi-cart2"></i>Carrito
                         </a>
                     </li>
                 </ul>
@@ -59,5 +68,7 @@
     </div>
     
     <script src="./js/carrito.js"></script>
+    <script src="./js/menu.js"></script>
+
 </body>
 </html>
